@@ -15,3 +15,5 @@ The original script is written in Python, and it is included in the depository `
 
 ## Updating Builder version
 The Builder in this repository is Version 20.1.1. This is the latest version as of September 2020. The version may not be updated in this repository, but you can create the latest version of the Builder standalone by replacing the `labjs-builder-standalone` folder. This requires a bit of work. Namely, you need to create a local copy of the builder by following [this procedure](https://labjs.readthedocs.io/en/latest/meta/contribute/build.html). I got quite a few errors in the process and work along problems. But if successful, you will have a folder containing `packages/builder/build`. Replace the `labjs-builder-standalone` folder with the `packages/builder/build` folder. The exec file (and Python script) should still work with the new version.
+
+>> <strong> CAUTION </strong> It seems that there is a problem loading an experiment built on the standaone Builder onto the original online Builder. Custome scripts appear to be removed. Curious why this happens.
