@@ -2,6 +2,9 @@
 
 This repsository contains a standalone version of [Lab.js](https://lab.js.org/) Builder. It lets you use the Builder on your own computer without connecting the lab.js server. This may be convenient if you have to work on your experiment without an internet connection. 
 
+>> <strong> CAUTION </strong> There seems to be a problem loading an experiment built on the standaone Builder onto the original online Builder, while the experiment built on the online Builder can be loaded to the standalone Builder without a problem. Curious why this is the case. <strong> I strongly recommend not to load an experiment built on the standalone version to the online Builder. </strong>
+
+
 ## How to use the stadalone lab.js builder
 To use the standalone lab.js builder, download `lab.js builder.zip` on your Windows PC and unzip in a folder. Then, simply run the exe file `run_builder.exe` in the folder. The Builer will starts shortly in your default browser. 
 
@@ -16,4 +19,3 @@ The original script is written in Python, and it is included in the depository `
 ## Updating Builder version
 The Builder in this repository is Version 20.1.1. This is the latest version as of September 2020. The version may not be updated in this repository, but you can create the latest version of the Builder standalone by replacing the `labjs-builder-standalone` folder. This requires a bit of work. Namely, you need to create a local copy of the builder by following [this procedure](https://labjs.readthedocs.io/en/latest/meta/contribute/build.html). I got quite a few errors in the process and work along problems. But if successful, you will have a folder containing `packages/builder/build`. Replace the `labjs-builder-standalone` folder with the `packages/builder/build` folder. The exec file (and Python script) should still work with the new version.
 
->> <strong> CAUTION </strong> It seems that there is a problem loading an experiment built on the standaone Builder onto the original online Builder. Custome scripts appear to be removed. Curious why this happens.
