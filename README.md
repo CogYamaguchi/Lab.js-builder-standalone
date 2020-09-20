@@ -2,9 +2,6 @@
 
 This repsository contains a standalone version of [Lab.js](https://lab.js.org/) Builder. It lets you use the Builder on your own computer without connecting the lab.js server. This may be convenient if you have to work on your experiment without an internet connection. 
 
->> <strong> CAUTION </strong> There seems to be a problem loading an experiment built on the standaone Builder onto the original online Builder, while the experiment built on the online Builder can be loaded to the standalone Builder without a problem. Curious why this is the case. <strong> I strongly recommend not to load an experiment built on the standalone version to the online Builder. </strong>
-
-
 ## How to use the stadalone lab.js builder
 To use the standalone lab.js builder, download the entire repository as a zip file on your Windows PC and unzip in a folder. Then, simply run the exe file `run_builder.exe` in the folder. The Builer will starts shortly in your default browser. 
 
