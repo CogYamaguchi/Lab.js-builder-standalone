@@ -1,5 +1,4 @@
 # -- this script runs a standalone lab.js builder in a local server.
-# -- lab.js builder version: 20.1.1
 import subprocess
 import webbrowser
 import os
